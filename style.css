@@ -5,10 +5,11 @@ body {
   background-color: #050505;
   margin: auto 30px;
   text-align: center;
-  background-image: linear-gradient(to left, #12121260, #08080890), url('https://pbs.twimg.com/media/EoTcs3GWEAADqHd?format=jpg&name=large');
+  background-image: linear-gradient(to left, #12121260, #08080890), url('images/me2.JPG');
   background-attachment: fixed;
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -20,11 +21,9 @@ h1 {
 }
 
 h1:hover {
-  text-shadow: 15px 15px #15151560;
+  text-shadow: 15px 15px #00000060;
   -webkit-transition: text-shadow .2s;
 }
-
-
 
 h2 {
   color: #9B9B9B98;
@@ -53,6 +52,11 @@ i:hover {
   color: #CCCCCC;
 }
 
+a {
+  text-decoration: none;
+  text-color: #9B9B9B90;
+}
+
 .circle-profile {
   width: 300px;
   border-radius: 20%;
@@ -60,7 +64,7 @@ i:hover {
 
 .card {
   padding: 20px;
-  background-color: #20202090;
+  background-color: #2B2B2B90;
   margin: 2%;
   position: relative;
   border-radius: 5px;
@@ -68,7 +72,7 @@ i:hover {
 
 .card-head{
   padding: 20px;
-  background-color: #20202090;
+  background-color: #2B2B2B90;
   margin: 2%;
   position: relative;
   border-radius: 5px;
@@ -85,6 +89,5 @@ i:hover {
 .flex-grid-third .col {
   width: 33%;
 }
-
 
 
