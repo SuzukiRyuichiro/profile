@@ -1,0 +1,79 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #050505;
+  margin: auto 30px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-style: italic;
+  color: #9B9B9B;
+  font-size: 100px;
+  -webkit-transition: text-shadow .2s;
+}
+
+h1:hover {
+  text-shadow: 15px 15px #15151560;
+  -webkit-transition: text-shadow .2s;
+}
+
+
+
+h2 {
+  color: #9B9B9B98;
+}
+
+h3 {
+  font-weight: lighter;
+  color: #9B9B9B90;
+}
+
+li {
+  display: inline-block;
+  font-size: 40px;
+}
+
+i {
+  width: 80px;
+  color: #FFFFFF;
+}
+
+i:hover {
+  color: #CCCCCC;
+}
+
+.circle-profile {
+  width: 300px;
+  border-radius: 20%;
+}
+
+.card {
+  padding: 20px;
+  background-color: #202020;
+  margin: 2%;
+  position: relative;
+  border-radius: 5px;
+}
+
+.card-head{
+  padding: 20px;
+  background-color: #202020;
+  margin: 2%;
+  position: relative;
+  border-radius: 5px;
+  background-image: linear-gradient(to left, #12121260, #08080890), url('https://pbs.twimg.com/media/EoTcs3GWEAADqHd?format=jpg&name=large');
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.grow { transition: all .2s ease-in-out; }
+
+.grow:hover { transform: scale(1.1); }
+
+
+
+
