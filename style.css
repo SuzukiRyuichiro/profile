@@ -1,9 +1,11 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url("styles/navbar.css");
+@import url("styles/card.css");
 
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #050505;
-  margin: auto 30px;
+  margin: auto;
   text-align: center;
   background-image: linear-gradient(to left, #12121260, #08080890), url('images/me2.jpg');
   background-attachment: fixed;
@@ -11,6 +13,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+body.bucket {
+  background-image: linear-gradient(to left, #12121260, #08080890), url('images/me.JPG');
+}
+
 
 h1 {
   font-weight: bold;
@@ -62,21 +69,6 @@ a {
   border-radius: 20%;
 }
 
-.card {
-  padding: 20px;
-  background-color: #2B2B2B90;
-  margin: 2%;
-  position: relative;
-  border-radius: 5px;
-}
-
-.card-head{
-  padding: 20px;
-  background-color: #2B2B2B90;
-  margin: 2%;
-  position: relative;
-  border-radius: 5px;
-}
 
 .grow { transition: all .2s ease-in-out; }
 
