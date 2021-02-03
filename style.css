@@ -5,6 +5,10 @@ body {
   background-color: #050505;
   margin: auto 30px;
   text-align: center;
+  background-image: linear-gradient(to left, #12121260, #08080890), url('https://pbs.twimg.com/media/EoTcs3GWEAADqHd?format=jpg&name=large');
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -52,7 +56,7 @@ i:hover {
 
 .card {
   padding: 20px;
-  background-color: #202020;
+  background-color: #20202090;
   margin: 2%;
   position: relative;
   border-radius: 5px;
@@ -60,20 +64,23 @@ i:hover {
 
 .card-head{
   padding: 20px;
-  background-color: #202020;
+  background-color: #20202090;
   margin: 2%;
   position: relative;
   border-radius: 5px;
-  background-image: linear-gradient(to left, #12121260, #08080890), url('https://pbs.twimg.com/media/EoTcs3GWEAADqHd?format=jpg&name=large');
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
 }
 
 .grow { transition: all .2s ease-in-out; }
 
 .grow:hover { transform: scale(1.1); }
 
+.flex-grid-third {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-third .col {
+  width: 33%;
+}
 
 
 
