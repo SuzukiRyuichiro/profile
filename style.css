@@ -16,6 +16,7 @@ body {
 
 body.bucket {
   background-image: linear-gradient(to left, #12121260, #08080890), url('images/me.JPG');
+  object-fit: cover;
 }
 
 
