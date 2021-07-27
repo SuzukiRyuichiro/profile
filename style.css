@@ -7,7 +7,7 @@ body {
   background-color: #050505;
   margin: auto;
   text-align: center;
-  background-image: linear-gradient(to left, #12121260, #08080890), url('images/me2.jpg');
+  background-image: linear-gradient(to left, #12121260, #08080890), url('images/me.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,4 +114,18 @@ a {
 @media (min-width: 1200px) {
 }
 
+.center {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+}
 
+.toWebsite {
+  font-size: large;
+  padding: 10px 20px;
+}
+
+.toWebsite:hover {
+  background-color: teal;
+}
