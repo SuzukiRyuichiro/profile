@@ -7,7 +7,7 @@ body {
   background-color: #050505;
   margin: auto;
   text-align: center;
-  background-image: linear-gradient(to left, #12121260, #08080890), url('images/me.jpg');
+  background-image: linear-gradient(to left, #12121260, #08080890), url('images/me.JPG');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
