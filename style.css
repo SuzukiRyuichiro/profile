@@ -139,6 +139,8 @@ ul {
 
 ul li {
   list-style: none;
+  cursor: url(images/cursor.png), pointer;
+
 }
 
 ul li:before {
@@ -174,6 +176,8 @@ ul li a {
   transition: 0.5s;
   z-index: 1;
   border-radius: 10px;
+  cursor: url(images/cursor.png), pointer;
+  /* cursor: url(https://e7.pngegg.com/pngimages/352/105/png-clipart-red-haired-blue-animated-character-art-little-miss-giggles-at-the-movies-cartoons.png), pointer; */
 }
 
 ul:hover li a {
